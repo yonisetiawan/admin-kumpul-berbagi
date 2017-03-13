@@ -28,6 +28,10 @@ export default class LoginForm extends Component {
                     <Button block info style={{width: 300}}>
                       <Text>Sign in</Text>
                     </Button>
+                    <Button block info style={{width: 300, marginTop: 10}}>
+                      <Icon active name="logo-googleplus" />
+                      <Text>Google Plus</Text>
+                    </Button>
                 </Content>
             </Container>
         )
